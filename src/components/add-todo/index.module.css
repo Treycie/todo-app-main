@@ -1,0 +1,29 @@
+.addTodo {
+    width: 60%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.addTodoInput {
+    width: 100%;
+    border: none;
+}
+
+.addTodoInput:focus {
+    outline: none;
+}
+
+.btn{
+    background-color: pink;
+
+}
+
+.btn:hover{
+    background-color: pink;
+}
