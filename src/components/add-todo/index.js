@@ -21,12 +21,15 @@ function AddTodo() {
         // todos.push(todo);
         // Set all todos in local storage
         setTodos([...todos, todo]);
+        // Wipe the input
+        setTodo("");
     }
 
 
     return (
         <section className={styles.addTodo}>
             <input
+            vlue={todo}
                 onChange={collectInput}
                 className={styles.addTodoInput}
                 placeholder="Start typing..." />
